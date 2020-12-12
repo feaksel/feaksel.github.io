@@ -1,0 +1,27 @@
+@import "./button";
+nav {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  margin-top: 1%;
+  /**/
+  background: rgba(255, 255, 255, 0.336);
+  .logo {
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .buttons {
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+/* background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(20px);
+border: solid 1px transparent;
+box-shadow: 1px 1px 1px rgba(146, 146, 158, 0.014); */
